@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[existing driver pathbinaries\chromedriver.exe]]>
+    </line>
+    <line>
+      <![CDATA[in method: getCurrentVersionOfDriverAsString]]>
+    </line>
+    <line>
+      <![CDATA[All SSL Certificates will be accepted...]]>
+    </line>
+    <line>
+      <![CDATA[Checking availability of URL: https://googlechromelabs.github.io/chrome-for-testing/known-good-versions.json]]>
+    </line>
+    <line>
+      <![CDATA[All SSL Certificates will be accepted...]]>
+    </line>
+    <line>
+      <![CDATA[Checking availability of URL: https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/126.0.6478.62/win32/chromedriver-win32.zip]]>
+    </line>
+    <line>
+      <![CDATA[existing driver pathbinaries\chromedriver.exe]]>
+    </line>
+    <line>
+      <![CDATA[in method: getCurrentVersionOfDriverAsString]]>
+    </line>
+    <line>
+      <![CDATA[All SSL Certificates will be accepted...]]>
+    </line>
+    <line>
+      <![CDATA[Checking availability of URL: https://googlechromelabs.github.io/chrome-for-testing/known-good-versions.json]]>
+    </line>
+    <line>
+      <![CDATA[All SSL Certificates will be accepted...]]>
+    </line>
+    <line>
+      <![CDATA[Checking availability of URL: https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/126.0.6478.62/win32/chromedriver-win32.zip]]>
+    </line>
+    <line>
+      <![CDATA[Case ID created=>N-4013]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-19T17:09:31 IST" name="Surefire suite" finished-at="2024-06-19T17:11:13 IST" duration-ms="102418">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunCukesTest@1f97cf0d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-06-19T17:09:31 IST" name="Surefire test" finished-at="2024-06-19T17:11:13 IST" duration-ms="102418">
+      <class name="RunCukesTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RunCukesTest@1f97cf0d]" started-at="2024-06-19T17:09:31 IST" name="setUpClass" finished-at="2024-06-19T17:09:33 IST" duration-ms="1733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@256ba00b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunCukesTest@1f97cf0d]" started-at="2024-06-19T17:09:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-19T17:11:13 IST" duration-ms="100549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify case creation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[New Business Life Case creation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[existing driver pathbinaries\chromedriver.exe]]>
+            </line>
+            <line>
+              <![CDATA[in method: getCurrentVersionOfDriverAsString]]>
+            </line>
+            <line>
+              <![CDATA[All SSL Certificates will be accepted...]]>
+            </line>
+            <line>
+              <![CDATA[Checking availability of URL: https://googlechromelabs.github.io/chrome-for-testing/known-good-versions.json]]>
+            </line>
+            <line>
+              <![CDATA[All SSL Certificates will be accepted...]]>
+            </line>
+            <line>
+              <![CDATA[Checking availability of URL: https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/126.0.6478.62/win32/chromedriver-win32.zip]]>
+            </line>
+            <line>
+              <![CDATA[existing driver pathbinaries\chromedriver.exe]]>
+            </line>
+            <line>
+              <![CDATA[in method: getCurrentVersionOfDriverAsString]]>
+            </line>
+            <line>
+              <![CDATA[All SSL Certificates will be accepted...]]>
+            </line>
+            <line>
+              <![CDATA[Checking availability of URL: https://googlechromelabs.github.io/chrome-for-testing/known-good-versions.json]]>
+            </line>
+            <line>
+              <![CDATA[All SSL Certificates will be accepted...]]>
+            </line>
+            <line>
+              <![CDATA[Checking availability of URL: https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/126.0.6478.62/win32/chromedriver-win32.zip]]>
+            </line>
+            <line>
+              <![CDATA[Case ID created=>N-4013]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunCukesTest@1f97cf0d]" started-at="2024-06-19T17:11:13 IST" name="tearDownClass" finished-at="2024-06-19T17:11:13 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RunCukesTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
